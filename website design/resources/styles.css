@@ -1,0 +1,86 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  background-color: gainsboro;
+  margin: 40px;
+}
+
+.color p {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.green {
+  background-color: #33cc00;
+}
+
+.yellow {
+  background-color: #ffff8f;
+}
+
+.cream {
+  background-color: #fffdd0;
+}
+
+.salmon {
+  background-color: #fa8072;
+}
+
+.Oswald {
+  font-family: "Oswald";
+}
+
+.fira {
+  font-family: "Fira Sans Condensed";
+}
+
+.neo {
+  font-family: "GFS Neohellenic";
+}
+
+.fonts h3 {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.fonts div, .styles div {
+  background-color: rgb(219, 210, 210);
+}
+
+section {
+  margin-top: 40px;
+  border: 2px solid black;
+  padding: 0px 10px;
+}
+
+section div {
+  padding: 20px;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+section div:last-child {
+  margin-bottom: 20px;
+}
+
+.styles h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.styles h2 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.styles li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.styles p {
+    font-weight: 400;
+    font-size: 20px;
+}
